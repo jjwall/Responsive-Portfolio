@@ -1,0 +1,309 @@
+body {
+	background-image: url(http://www.subtlepatterns.com/submit/upload/sneaker-mesh-fabric.png);
+	font-style: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+}
+
+header, footer {
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
+}
+
+.header-div {
+	background-color: #ffffff;
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-color: #dddddd;
+	padding-top: 20px;
+}
+
+.your-name {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 15px 20px 15px 40px;
+	margin-top: 20px;
+	margin: 0px 805px 0px 71px;
+	width: 200px;
+}
+
+.navigation {
+	position: absolute;
+	right: 50px;
+	left: 750px;
+	top: 7px;
+	padding: 25px 40px 25px 0px;
+	width: 250px;
+	/*width and left cause this div to stay put,
+	main content might too wide, but for now its fine*/
+	background-color: transparent;
+}
+
+.about-button {
+	float: left;
+	clear: all;
+	background-color: #ffffff;
+	padding: 0px 10px 0px 10px;
+	border-right-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+}
+
+.port-button {
+	float: left;
+	clear: all;
+	background-color: #ffffff;
+	padding: 0px 10px 0px 10px;
+	border-right-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+}
+
+.contact-button {
+	float: left;
+	clear: all;
+	background-color: #ffffff;
+	padding: 0px 10px 0px 10px;
+}
+
+a:link {
+	color: #777777;
+}
+
+a:visited { 
+	color: #777777;
+}
+
+.content {
+	/*width: 960px;*/
+	padding-left: 71px;
+}
+
+.main-font {
+	background-color: #ffffff;
+	color: #4aaaa5;
+	padding: 20px 0px 15px 0px;
+	border-bottom-style: solid;
+	border-color: #dddddd;
+	margin: 0px 20px 0px 20px;
+}
+
+.main-content {
+	background-color: #ffffff;
+	padding: 0px 15px 0px 15px;
+	width: 610px;
+	/* width was 650 to begin...*/
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	margin-top: 30px;
+	clear: all;
+}
+
+/* CSS for index below */
+
+#profile-pic {
+	padding: 15px 10px 10px 20px;
+	width: 150px;
+	height: 150px;
+	float: left;
+	clear: all;
+}
+
+#paragraph {
+	padding: 5px 0px 15px 20px;
+	line-height: 200%;
+	color: #777777;
+}
+
+/*CSS for Portfolio below*/
+
+#box1 {
+	padding: 15px 10px 10px 20px;
+	float: left;
+	clear: all;
+}
+
+#scratch-game {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 15px 0px 15px 0px;
+	width: 250px;
+	text-align: center;
+	top: 320px;
+}
+
+#box2 {
+	padding: 15px 0px 10px 60px;
+	float: left;
+	clear: all;
+}
+
+#soundcloud {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 15px 0px 15px 0px;
+	width: 250px;
+	text-align: center;
+	top: 320px;
+}
+
+#box3 {
+	padding: 15px 10px 10px 20px;
+	float: left;
+	clear: all;
+}
+
+#cycle {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 15px 0px 15px 0px;
+	width: 250px;
+	text-align: center;
+	top: 535px;
+}
+
+#box4 {
+	padding: 15px 0px 10px 60px;
+	float: left;
+	clear: all;
+}
+
+#city {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 15px 0px 15px 0px;
+	width: 250px;
+	text-align: center;
+	top: 535px;
+}
+
+#box5 {
+	padding: 15px 0px 10px 20px;
+	float: left;
+	clear: all;
+}
+
+#business {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 15px 0px 15px 0px;
+	width: 250px;
+	text-align: center;
+	top: 752px;
+}
+
+/*CSS for contact below*/
+
+#name {
+	padding: 15px 10px 10px 20px;
+	color: #777777;
+}
+
+#name-input {
+	padding-left: 20px;
+}
+
+#email {
+	padding: 15px 10px 10px 20px;
+	color: #777777;
+}
+
+#email-input {
+	padding-left: 20px;
+}
+
+#message {
+	padding: 15px 10px 10px 20px;
+	color: #777777;
+}
+
+#message-input {
+	padding: 0px 0px 10px 20px;
+}
+
+#submit {
+	padding: 0px 0px 20px 20px;
+}
+
+/* CSS for connect content below */
+
+.connect-font {
+	background-color: #ffffff;
+	color: #4aaaa5;
+	text-align: center;
+	padding: 20px 0px 15px 0px;
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-color: #dddddd;
+	margin: 0px 15px 0px 15px;
+}
+
+.connect {
+	background-color: #ffffff;
+	/*float: left;*/
+	width: 210px;
+	position: absolute;
+	right: 55px;
+	left: 715px;
+	/*top: 76px;*/
+	margin-left: 40px;
+	padding: 0px 10px 30px 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	margin-top: 30px;
+	clear: all;
+
+}
+
+.github {
+	padding: 20px 10px 0px 5px;
+	float: left;
+	clear: all;
+}
+
+.linkedin {
+	padding: 20px 10px 0px 0px;
+	float: left;
+	clear: all;
+}
+
+.stack-overflow {
+	padding: 20px 0px 0px 0px;
+	float: left;
+	clear: all;
+}
+
+.footer {
+	background-color: #666666;
+	text-align: center;
+	color: #ffffff;
+	font-size: 10px;
+	padding: 40px 0px 15px 0px;
+	border-top-style: solid;
+	border-width: 7px;
+	border-color: #4aaaa5;
+}
+
+/* footer specific code below */
+
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 94%;
+}
+.content {
+	min-height: 100%;
+	margin: 0 auto -155px;
+}
+
+.footer, .push {
+	height: 4em;
+	clear: both;
+}
